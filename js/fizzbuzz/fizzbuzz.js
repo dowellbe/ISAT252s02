@@ -26,12 +26,14 @@ countXToY = function (x,y) {
 
 countXToY (1,100);
 
+
+// Alternative fizzbuzz program
 // const count = x => {
-  let output = [];
-  for ( let i = 1; i <= x; i += 1 ) {
-    output.push(i);
-  }
-  return output;
+//  let output = [];
+//  for ( let i = 1; i <= x; i += 1 ) {
+//    output.push(i);
+//  }
+//  return output;
 //};
 
 // const fizz = x => x %  3 === 0 ? "Fizz"     : x;
@@ -51,9 +53,9 @@ countXToY (1,100);
 // const play = x => count(x).map(y => buzz(fizz(fibu(y))));
 
 // module.exports = {
-  count,
-  fizz,
-  buzz,
-  fibu,
-  play
+//  count,
+//  fizz,
+//  buzz,
+//  fibu,
+//  play
 // };
