@@ -15,4 +15,4 @@ x >= y;		// Greater Than or Equal to; true
 // Logical Operators
 x > 1 && x < 10; 	// And (&&) Operator; true
 x > 1 || x < 5; 	// Or (||) Operator; true
-!x 				      	// Not (!) Operator; false
+!x 				   	// Not (!) Operator; false
